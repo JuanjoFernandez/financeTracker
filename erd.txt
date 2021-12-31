@@ -1,0 +1,42 @@
+Accounts
+---
+Account_Id PK int
+Name string
+Institution int FK >- Institutions.Inst_Id
+Date_Opened date
+Type int
+Balance float
+Limit float
+
+Acounts_Type
+---
+Type_Id PK int FK >- Accounts.Type
+Account_Type string
+
+Investment_Portfolio
+---
+Inv_Id PK int FK >- Institutions.Inst_Id
+Institution int
+Date_Opened
+
+Institutions
+---
+Inst_Id PK int
+Name string
+Country string
+Webpage string
+Executive string
+
+Transactions
+---
+Trans_Id PK int
+Date date/time
+Source int FK >- Accounts.Account_Id
+Destination int FK >- Accounts.Account_Id
+Concept string
+Amount float
+
+Budgets
+---
+Bud_Id PK int
+Name string
