@@ -1,0 +1,12 @@
+Account
+    id
+    name
+    institution
+    date_opened
+    type
+    balance
+    limit
+
+    create()
+    modify()
+    update_balance()
