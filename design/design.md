@@ -11,6 +11,6 @@
 
 ## Accounts database
 
-![Accounts ERD diagram](resources/accounts_erd.png)
+![Accounts ERD diagram](../resources/accounts_erd.png)
 
 
