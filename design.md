@@ -6,3 +6,11 @@
 * All the calculations, information retrieval and graphs are done in Python
 
 # Database design
+
+* The ERD is created using [QuickDatabase Diagrams](www.quickdatabasediagrams.com)
+
+## Accounts database
+
+![Accounts ERD diagram](resources/accounts_erd.png)
+
+

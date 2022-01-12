@@ -8,17 +8,6 @@ Type int
 Balance float
 Limit float
 
-Acounts_Type
----
-Type_Id PK int FK >- Accounts.Type
-Account_Type string
-
-Investment_Portfolio
----
-Inv_Id PK int FK >- Institutions.Inst_Id
-Institution int
-Date_Opened
-
 Institutions
 ---
 Inst_Id PK int
@@ -33,10 +22,11 @@ Trans_Id PK int
 Date date/time
 Source int FK >- Accounts.Account_Id
 Destination int FK >- Accounts.Account_Id
-Concept string
+Concept int
+Observations string
 Amount float
 
-Budgets
+Concepts
 ---
-Bud_Id PK int
-Name string
+con_id PK int FK >- Transactions.Concept
+description string
