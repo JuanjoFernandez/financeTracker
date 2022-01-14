@@ -9,4 +9,4 @@ Account
 
     create()
     modify()
-    update_balance()
+    update_balance(amount)
