@@ -1,3 +1,19 @@
+/* Top menu bar */
+.navbar-light .navbar-brand {
+    color: #eeeeee;
+    font-family: monospace;
+    font-size: 20;
+}
+
+.btn-primary {
+    background-color: #bc8cf2;
+    border-color: #aa14f0;
+    color: #eeeeee;
+}
+
+
+
+
 .col-4 {
     background-color: yellow;
 }
@@ -6,6 +22,3 @@
     background-color: tomato;
 }
 
-#top_menu {
-    background-color: violet;
-}
